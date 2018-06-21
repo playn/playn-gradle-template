@@ -1,0 +1,1 @@
+include 'core', 'assets', 'java', 'html', 'android', 'robovm'

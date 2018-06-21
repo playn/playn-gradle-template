@@ -1,0 +1,11 @@
+<module rename-to='playnGradleTemplate'>
+  <inherits name='playn.Scene'/>
+  <inherits name='TemplateGameAssets'/>
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='io.playn.template.html.TemplateGameHtml'/>
+</module>
