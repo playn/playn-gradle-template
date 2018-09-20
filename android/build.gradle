@@ -9,6 +9,8 @@ android {
   }
   packagingOptions {
     exclude 'META-INF/robovm/ios/robovm.xml'
+    exclude '**/*.java'
+    exclude '**/*.gwt.xml'    
   }
   buildTypes {
     release {
