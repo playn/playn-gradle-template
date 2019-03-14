@@ -1,6 +1,6 @@
 buildscript {
   // Defined here so that we can use it in the buildscript block
-  project.ext.roboVMVersion = '2.3.5'
+  project.ext.roboVMVersion = '2.3.6'
 
   repositories {
     mavenLocal()
@@ -90,11 +90,11 @@ project(":robovm") {
   sourceCompatibility = 1.7
 
   dependencies {
-    compile project(":core")
-    compile "com.mobidevelop.robovm:robovm-rt:$roboVMVersion"
-    compile "com.mobidevelop.robovm:robovm-objc:$roboVMVersion"
-    compile "com.mobidevelop.robovm:robovm-cocoatouch:$roboVMVersion"
-    compile "io.playn:playn-robovm:$playnVersion"
+    implementation project(":core")
+    implementation "com.mobidevelop.robovm:robovm-rt:$roboVMVersion"
+    implementation "com.mobidevelop.robovm:robovm-objc:$roboVMVersion"
+    implementation "com.mobidevelop.robovm:robovm-cocoatouch:$roboVMVersion"
+    implementation "io.playn:playn-robovm:$playnVersion"
   }
 
   ext {
